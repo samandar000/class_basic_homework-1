@@ -1,5 +1,10 @@
 from create_one_attribute import Person
 
+p1 = Person('Anvar')
+p2 = Person('Shavkat')
+p3 = Person('Jasur')
+persons = [p1.name,p2.name,p3.name]
+# print(persons)
 #Create an object named "p1" whose name is "Anvar"
 #Create an object named "p2" whose name is "Shavkat"
 #Create an object named "p3" whose name is "Jasur"
